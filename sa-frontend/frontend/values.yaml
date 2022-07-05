@@ -6,7 +6,7 @@ image:
   repository: 421320058418.dkr.ecr.us-east-1.amazonaws.com/front-end
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "24-master"
+  tag: "3-master"
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
