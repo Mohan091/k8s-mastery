@@ -3,10 +3,10 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: 421320058418.dkr.ecr.us-east-1.amazonaws.com/front-end
+  repository: 421320058418.dkr.ecr.us-east-1.amazonaws.com
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "4-master"
+  tag: "k8s-4-master"
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""

@@ -42,7 +42,7 @@ stages {
                 script {
                     sh '''
                     cd k8s-mastery/sa-frontend/frontend
-                    yq e -i '(.image.tag = "'${BUILD_NUMBER}-${BRANCH_NAME}'")' values.yaml
+                    yq e -i '(.image.tag = "'k8s-${BUILD_NUMBER}-${BRANCH_NAME}'")' values.yaml
                     git config --global user.email "mohan@squareops.com"
                     git config --global user.name "Mohan Mourya"            
                     git add .
